@@ -1,5 +1,9 @@
 // Write your code here
+let products = ["Laptop", "Phone", "Headphones", "Monitor"]
 
+function logFirstProduct(){
+  console.log(products[0])
+}
 
 
 // Export the necessary parts for testing
