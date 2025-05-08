@@ -5,7 +5,9 @@ function logFirstProduct(){
   console.log(products[0])
 }
 
-
+function addProduct(name){
+  products.push(name)
+}
 // Export the necessary parts for testing
 module.exports = {
   logFirstProduct: typeof logFirstProduct !== 'undefined' ? logFirstProduct : undefined,
