@@ -8,6 +8,15 @@ function logFirstProduct(){
 function addProduct(name){
   products.push(name)
 }
+
+function updateProductName(index,name){
+  products[index] = name
+}
+
+function removeLastProduct(){
+  products.pop()
+}
+
 // Export the necessary parts for testing
 module.exports = {
   logFirstProduct: typeof logFirstProduct !== 'undefined' ? logFirstProduct : undefined,
